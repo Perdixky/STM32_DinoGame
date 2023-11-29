@@ -1,0 +1,4 @@
+../Core/Peripherals/BMP085/BMP180.c:12:23:BMP085_GetInitData	88	static
+../Core/Peripherals/BMP085/BMP180.c:31:27:BMP085_GetOriginalData	56	static
+../Core/Peripherals/BMP085/BMP180.c:51:19:BMP085_GetData	88	static
+../Core/Peripherals/BMP085/BMP180.c:79:8:BMP085_GetAltitude	16	static
