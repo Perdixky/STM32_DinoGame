@@ -17,7 +17,6 @@
   */
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
-#include <BMP180.h>
 #include "main.h"
 #include "i2c.h"
 #include "tim.h"
@@ -114,8 +113,8 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	  BMP085_InitDataTypdef Init_Data = BMP085_GetInitData(&hi2c1);
-	  BMP085_GetData(&hi2c1, &Init_Data, 1);
+//	  BMP085_InitDataTypdef Init_Data = BMP085_GetInitData(&hi2c1);
+//	  BMP085_GetData(&hi2c1, &Init_Data, 1);
 //	  BMP180_GetAlt(1);
 //	for(char i = 0; i < 70; i++)
 //	{

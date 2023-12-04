@@ -1,4 +1,4 @@
-Core/DINO_Game/Dino_Image&Font.o: ../Core/DINO_Game/Dino_Image&Font.c \
+Core/DINO_Game/Dino_Image&Font.o: ../Core/DINO_Game/Dino_Image&Font.cpp \
  ../Core/DINO_Game/Dino_Image&Font.h \
  C:/Users/32937/STM32CubeIDE/workspace_1.13.2/h750vb/Core/Peripherals/OLED/OLED.h \
  C:/Users/32937/STM32CubeIDE/workspace_1.13.2/h750vb/Core/Peripherals/OLED/OLED_Font.h \

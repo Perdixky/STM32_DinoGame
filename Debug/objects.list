@@ -1,5 +1,7 @@
-"./Core/Peripherals/BMP085/BMP180.o"
+"./Core/DINO_Game/Dino_Image&Font.o"
 "./Core/Peripherals/Key/Key.o"
+"./Core/Peripherals/OLED/OLED.o"
+"./Core/Peripherals/OLED/OLED_Font.o"
 "./Core/Src/gpio.o"
 "./Core/Src/i2c.o"
 "./Core/Src/main.o"

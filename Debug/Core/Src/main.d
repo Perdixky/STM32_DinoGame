@@ -1,7 +1,4 @@
-Core/Src/main.o: ../Core/Src/main.c \
- C:/Users/32937/STM32CubeIDE/workspace_1.13.2/h750vb/Core/Peripherals/BMP085/BMP180.h \
- C:/Users/32937/STM32CubeIDE/workspace_1.13.2/h750vb/Core/Peripherals/BMP085/BMP180_Reg.h \
- ../Core/Inc/i2c.h ../Core/Inc/main.h \
+Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../Core/Inc/stm32h7xx_hal_conf.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
@@ -32,12 +29,10 @@ Core/Src/main.o: ../Core/Src/main.c \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
- ../Core/Inc/main.h ../Core/Inc/tim.h ../Core/Inc/gpio.h \
+ ../Core/Inc/i2c.h ../Core/Inc/main.h ../Core/Inc/tim.h \
+ ../Core/Inc/gpio.h \
  C:/Users/32937/STM32CubeIDE/workspace_1.13.2/h750vb/Core/Peripherals/OLED/OLED.h \
  C:/Users/32937/STM32CubeIDE/workspace_1.13.2/h750vb/Core/Peripherals/OLED/OLED_Font.h
-C:/Users/32937/STM32CubeIDE/workspace_1.13.2/h750vb/Core/Peripherals/BMP085/BMP180.h:
-C:/Users/32937/STM32CubeIDE/workspace_1.13.2/h750vb/Core/Peripherals/BMP085/BMP180_Reg.h:
-../Core/Inc/i2c.h:
 ../Core/Inc/main.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../Core/Inc/stm32h7xx_hal_conf.h:
@@ -69,6 +64,7 @@ C:/Users/32937/STM32CubeIDE/workspace_1.13.2/h750vb/Core/Peripherals/BMP085/BMP1
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h:
+../Core/Inc/i2c.h:
 ../Core/Inc/main.h:
 ../Core/Inc/tim.h:
 ../Core/Inc/gpio.h:

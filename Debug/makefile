@@ -12,8 +12,9 @@ RM := rm -rf
 -include Drivers/STM32H7xx_HAL_Driver/Src/subdir.mk
 -include Core/Startup/subdir.mk
 -include Core/Src/subdir.mk
+-include Core/Peripherals/OLED/subdir.mk
 -include Core/Peripherals/Key/subdir.mk
--include Core/Peripherals/BMP085/subdir.mk
+-include Core/DINO_Game/subdir.mk
 -include objects.mk
 
 ifneq ($(MAKECMDGOALS),clean)
